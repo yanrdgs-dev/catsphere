@@ -1,0 +1,48 @@
+body {
+    background-color: #121212;
+    color: #FFD700;
+}
+.navbar {
+    background-color: #121212;
+}
+.navbar-brand, .nav-link {
+    color: #FFD700 !important;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    margin-top: 50px;
+}
+.list-group-item {
+    background-color: #242424;
+    border: none;
+    color: #FFD700;
+}
+.form-control {
+    background-color: #242424;
+    border: none;
+    color: #FFD700;
+}
+.btn-submit {
+    background-color: #FFD700;
+    color: #121212;
+}
+.btn-submit:hover {
+    background-color: #FFC107;
+}
+.timestamp {
+    color: #FFD700;
+}
+
+@keyframes messageAnimation {
+    0% { transform: translateY(20px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+.message {
+    animation: messageAnimation 0.5s ease-out;
+}

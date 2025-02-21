@@ -1,0 +1,32 @@
+body {
+    background-color: #121212;
+    color: #FFD700;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    margin-top: 50px;
+}
+.form-control {
+    background-color: #242424;
+    border: none;
+    color: #FFD700;
+}
+.btn-submit {
+    background-color: #FFD700;
+    color: #121212;
+}
+.btn-submit:hover {
+    background-color: #FFC107;
+}
+.links a {
+    color: #FFD700;
+    text-decoration: none;
+}
+.links a:hover {
+    text-decoration: underline;
+}
